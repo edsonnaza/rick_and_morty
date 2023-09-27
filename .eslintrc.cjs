@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
+  files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -17,4 +18,10 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  typescript: {
+    tsconfig: 'tsconfig.json',
+    // Activa la opción ignoreCase
+    // Esto permitirá que TypeScript sea menos estricto con las mayúsculas y minúsculas en los nombres de archivos
+    ignoreCase: true,
+  }
 }

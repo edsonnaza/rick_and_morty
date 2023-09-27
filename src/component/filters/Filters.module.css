@@ -1,0 +1,13 @@
+
+.form {
+    display: flex;
+    margin: 20px 15px 30px 15px;
+}
+
+.fill-one {
+    background: var(--light-bg);
+  }
+  
+  .fill-two {
+    background: var(--pink);
+  }

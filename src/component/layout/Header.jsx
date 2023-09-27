@@ -1,11 +1,12 @@
 import classes from './Header.module.css';
 import imageBackground from '../../assets/rickymortyWallPaper.png';
 
-const Header = (props)=>{
+const Header = ()=>{
+ 
     return (
         <div>
             <header className={classes.header}>
-                <h1>Rick and Morty</h1>
+                <h1>Rick and Morty {name}</h1>
             </header>
             <div>
                 <div className={classes['main-image']}>

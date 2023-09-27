@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+  }
+  .input, button  {
+    box-sizing: border-box;
+    height: 50px;
+    width: 300px;
+    padding: 6px;
+    vertical-align: middle;
+    border: solid 2px lightgray;
+    border-radius: 6px;
+    outline: none;
+  }
+  .button {
+    width: auto;
+    height: 36px;
+    margin: 12px 0;
+    padding: 12px;
+    border: none;
+  }
+   
+  .label {
+    
+    display: inline;
+    margin: 5px 6px;
+    vertical-align: top;
+    color:black
+    
+    
+   
+    
+  }
+    
+  
+   
+ 
